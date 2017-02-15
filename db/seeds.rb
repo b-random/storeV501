@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Product.create(name: "Seed Bike", description: "The best bike from seeds.rb!", image_url: "https://cdn.shopify.com/s/files/1/1109/6048/products/36758_large.jpg?v=1480007051")
