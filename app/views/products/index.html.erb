@@ -13,6 +13,7 @@
           <p><%= product.description %></p>
           <p><%= product.color %></p>
           <strong>$<%= product.price %></strong>
+          <div><%= image_tag(product.image_url, class: "img-responsive", size: "200x150") %></div>
         </div><!-- /col -->
      <% end %>
      </div>
