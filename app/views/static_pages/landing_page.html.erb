@@ -1,6 +1,10 @@
 <h2>Premier Product</h2>
 
-<div class="col">
-<h4><%= @product.name %></h4>
-<%= image_tag(@product.image_url, size: '200x150') %>
-</div>
+<% if @product %>
+  <div class="col">
+    <h4><%= @product.name %></h4>
+    <%= image_tag(@product.image_url, size: '200x150') %>
+  </div>
+<% else %>
+  <h4>Featured product coming soon!</h4>
+<% end %>

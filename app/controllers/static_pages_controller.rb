@@ -3,6 +3,6 @@ class StaticPagesController < ApplicationController
   end
 
   def landing_page
-    @product = Product.find(1)
+    @product = Product.first
   end
 end
